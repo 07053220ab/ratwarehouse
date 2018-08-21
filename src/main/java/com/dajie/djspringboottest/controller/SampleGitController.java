@@ -16,6 +16,6 @@ public class SampleGitController {
     @ResponseBody
     public String home(HttpServletRequest request) {
         logger.info("------Hello World!-------- {}",request.getServletPath());
-        return "Hello World!Hello World!Hello World!Hello World!Hello World!Hello World";
+        return "Hello ";
     }
 }
